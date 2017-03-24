@@ -1,1 +1,130 @@
-/*COMMON RULES*/
+
+body
+{
+  font-family: "Circular","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+header
+{
+  width: 100%;
+  position: relative;
+  display: table;
+}
+
+header img
+{
+  width: 9%;
+  margin: 1em;
+}
+header nav ul
+{
+  list-style-type: none;
+  width: 40%;
+  background-color: pink;
+  display: inline;
+}
+nav ul li
+{
+  width: 80%;
+  list-style-type: none;
+  display: inline;
+}
+nav ul li:nth-child(1)
+{
+  display: none;
+}
+nav ul li:nth-child(2)
+{
+  display: none;
+}
+nav ul li a
+{
+  text-decoration: none;
+  font-size: 14px;
+  color: #333333;
+}
+header h1
+{
+  margin:1em;
+  font-size: 23px;
+  font-weight: 700;
+  color:#FF5A5F;
+  line-height: 30px;
+}
+header h1 span
+{
+  color:#484848;
+  font-weight: 300;
+}
+aside nav ul li:nth-child(3)
+{
+  display: none;
+}
+aside .rechercher
+{
+  display: none;
+}
+aside .loupe
+{
+  display: block;
+  position: relative;
+  width: 90%;
+  padding: 18px;
+  margin-left: -1em;
+  border: 1px solid #dce0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 #dce0e0;
+  font-family:"Helvetica Neue";
+  font-weight: 300;
+  color: #767676 ;
+  font-size: 18px;
+}
+.fa-search
+{
+  color: black;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RULES OF THE HEADER*/
+/*END OF THE HEADER*/
+
+/*RULES OF THE NAVBAR*/
+/*END OF THE NAVBAR*/
+
+/*RULES OF THE DIVISION*/
+/*END OF THE DIVISION*/
+
+/*RULES OF THE FIRST SECTION*/
+/*END OF THE FIRST SECTION*/
+
+/*RULES OF THE SECOND SECTION*/
+/*END OF THE SECOND SECTION*/
+
+/*RULES OF THE THIRD SECTION*/
+/*END OF THE THIRD SECTION*/
+
+/*RULES OF THE FOURTH SECTION*/
+/*END OF THE FOURTH SECTION*/
+
+/*RULES OF THE FIFTH SECTION*/
+/*END OF THE FIFTH SECTION*/
+
+/*RULES OF THE FOOTER*/
+/*END OF THE FOOTER*/
