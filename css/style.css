@@ -1,8 +1,15 @@
+/*COMMON RULES*/
 
+
+
+
+/*END OF THE COMMON RULES*/
 body
 {
   font-family: "Circular","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/*RULES OF THE HEADER*/
+
 header
 {
   width: 100%;
@@ -15,16 +22,21 @@ header img
   width: 9%;
   margin: 1em;
 }
+header nav
+{
+  display: inline-block;
+  margin: 1em;
+  vertical-align: top;
+  margin-left: 2.5em;
+}
 header nav ul
 {
   list-style-type: none;
-  width: 40%;
-  background-color: pink;
+  width: 90%;
   display: inline;
 }
 nav ul li
 {
-  width: 80%;
   list-style-type: none;
   display: inline;
 }
@@ -55,6 +67,14 @@ header h1 span
   color:#484848;
   font-weight: 300;
 }
+/*END OF THE HEADER*/
+
+
+
+
+
+/*RULES OF THE NAVBAR*/
+
 aside nav ul li:nth-child(3)
 {
   display: none;
@@ -67,9 +87,10 @@ aside .loupe
 {
   display: block;
   position: relative;
-  width: 90%;
+  width: 85%;
   padding: 18px;
   margin-left: -1em;
+  margin-bottom: 3em;
   border: 1px solid #dce0e0;
   border-radius: 4px;
   box-shadow: 0 2px 4px 0 #dce0e0;
@@ -81,7 +102,61 @@ aside .loupe
 .fa-search
 {
   color: black;
-  text-align: right;
+  padding-left: 6em;
+
+}
+/*END OF THE NAVBAR*/
+
+
+
+
+/*RULES OF THE DIVISION*/
+
+/*RULES OF THE FIRST AND SECOND SECTION*/
+
+.first, .second
+{
+  width:90%;
+}
+.first h3, .second h3, .third h3, .fourth h3
+{
+  margin: 1em 1em 1em 1em;
+  color: #484848;
+  font-weight: 300;
+}
+.first figure, .second figure
+{
+  margin: auto;
+}
+.first figure img, .second figure img
+{
+  width: 130px;
+  height: 195px;
+  padding-left: 1em;
+}
+.imgnone
+{
+  display: none;
+}
+.first p, .second p, .fourth p
+{
+  display: none;
+}
+.harlem, .instant
+{
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+/*END OF THE FIRST AND SECOND SECTION*/
+
+
+
+
+.third figure img
+{
+  width: 177px;
+  height: 118px;
 }
 
 
@@ -91,29 +166,89 @@ aside .loupe
 
 
 
+.gallery
+{
+  width: 90%;
+  display: flex;
+  margin: 1em;
+  padding-bottom: 4em;
+}
+.gallery figure
+{
+  margin: auto;
+}
+.gallery h3
+{
+  display: none;
+}
+.fourth figure img
+{
+  width: 82px;
+  height: 124px;
+}
+.fourth
+{
+  margin-top: 5em;
+}
 
+.fifth
+{
+  width: 100%;
+  display: flex;
+}
+.fifth figure
+{
+  margin: auto;
+}
+.fifth figure img
+{
+  width: 320px;
+  height: 168.05px;
+  width: 100%;
+}
 
+.textandimg
+{
+  padding-bottom: 4em;
+}
 
+.textandimg h3
+{
+  font-size: 25px;
+  font-weight: 500;
+  color:#484848;
+  margin: 1em 0 0 1em ;
+}
 
+.textandimg p
+{
+  margin: auto;
+  font-size: 20px;
+  font-weight: 200;
+  color:#484848;
+  margin: 1em 0 0 1.3em ;
+}
+.textandimg input
+{
+  background: #008489;
+  border: 9px solid transparent;
+  border-radius: 4px;
+  width: 60%;
+  color: white;
+  font-size: 14px;
+  font-family: 'Circular','-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+  margin: 1em 1em 1em 2em;
+}
+footer table
+{
+  display: none;
+}
+footer label select
+{
+background: transparent;
+border: 9px solid black;
 
-
-
-
-
-
-
-/*RULES OF THE HEADER*/
-/*END OF THE HEADER*/
-
-/*RULES OF THE NAVBAR*/
-/*END OF THE NAVBAR*/
-
-/*RULES OF THE DIVISION*/
-/*END OF THE DIVISION*/
-
-/*RULES OF THE FIRST SECTION*/
-/*END OF THE FIRST SECTION*/
-
+}
 /*RULES OF THE SECOND SECTION*/
 /*END OF THE SECOND SECTION*/
 
