@@ -152,20 +152,21 @@ aside .loupe
 
 
 
+/*RULES OF THE THIRD SECTION*/
 
 .third figure img
 {
   width: 177px;
   height: 118px;
 }
+/*END OF THE THIRD SECTION*/
 
 
 
 
 
 
-
-
+/*RULES OF THE FOURTH SECTION*/
 .gallery
 {
   width: 90%;
@@ -190,6 +191,12 @@ aside .loupe
 {
   margin-top: 5em;
 }
+/*END OF THE FOURTH SECTION*/
+
+
+
+
+/*RULES OF THE FIFTH SECTION*/
 
 .fifth
 {
@@ -238,7 +245,15 @@ aside .loupe
   font-size: 14px;
   font-family: 'Circular','-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
   margin: 1em 1em 1em 2em;
+  margin-bottom: -2em;
 }
+/*END OF THE FIFTH SECTION*/
+
+
+
+
+
+/*RULES OF THE FOOTER*/
 footer table
 {
   display: none;
@@ -249,17 +264,34 @@ background: transparent;
 border: 9px solid black;
 
 }
-/*RULES OF THE SECOND SECTION*/
-/*END OF THE SECOND SECTION*/
+.check
+{
+  display: inline-flex;
+   font-size: 19px;
+   line-height: 24px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   color: #484848 ;
+   font-weight: 200;
+   margin-left: 1em;
+   padding-left: 12px;
+   padding-right: 40px;
+   height: auto;
+   background: #ffffff ;
+   border: 1px solid #DBDBDB ;
+   border-radius: 5px;
+   width: 40%;
+}
+footer img
+{
+  margin-top: 2em;
+  margin-left: 1em;
+}
+/*END RULES OF THE FOOTER*/
 
-/*RULES OF THE THIRD SECTION*/
-/*END OF THE THIRD SECTION*/
-
-/*RULES OF THE FOURTH SECTION*/
-/*END OF THE FOURTH SECTION*/
-
-/*RULES OF THE FIFTH SECTION*/
-/*END OF THE FIFTH SECTION*/
-
-/*RULES OF THE FOOTER*/
 /*END OF THE FOOTER*/
+
+@media (min-width: 768px)
+
+
+@media (min-width: 1024px)
