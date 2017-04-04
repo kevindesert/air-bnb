@@ -298,7 +298,8 @@ footer img
 
   header nav ul
   {
-    display: inline-flex;
+    display: inline-block;
+    padding-left: 20em;
 
   }
   nav ul li:nth-child(1)
@@ -362,7 +363,7 @@ aside li input
 {
   display: block;
 }
-#off
+#off2, #off
 {
   display: none;
 }
@@ -500,6 +501,9 @@ footer table td a
 {
   display: none;
 }
-
+#off2
+{
+  display: block;
+}
 
 }
