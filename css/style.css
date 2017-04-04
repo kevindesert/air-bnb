@@ -1,8 +1,5 @@
 /*COMMON RULES*/
 
-
-
-
 /*END OF THE COMMON RULES*/
 body
 {
@@ -301,8 +298,8 @@ footer img
 
   header nav ul
   {
-    display: inline-block;
-    padding-left: 23em;
+    display: inline-flex;
+
   }
   nav ul li:nth-child(1)
   {
@@ -364,6 +361,10 @@ aside li input
 .imgnone
 {
   display: block;
+}
+#off
+{
+  display: none;
 }
 .fourth figure img
 {
@@ -449,17 +450,56 @@ footer table td a
 }
 }
 
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1024px)
 {
+  header nav ul
+  {
+    display: inline-block;
+    text-align: center;
+
+  }
+  header h1
+  {
+    margin:1em;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color:#FF5A5F;
+    width: 46%;
+  }
+  .third
+  {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .third h3
+  {
+    width: 100%;
+  }
+  .third article
+  {
+    width: 40%;
+  }
+
+  .fa-search
+  {
+    color: black;
+    padding-left: 50em;
+
+  }
+  .imgnone2
+  {
+    display: block;
+  }
+.fourth
+{
+  width: 85%;
+}
+#off
+{
+  display: none;
+}
+
 
 }
